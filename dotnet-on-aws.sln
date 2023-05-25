@@ -1,8 +1,26 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherSampleLambda", "WeatherSampleLambda\src\WeatherSampleLambda\WeatherSampleLambda.csproj", "{37366718-74A2-4C13-9859-5E4E48567262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WEatherSampleLambda.Test", "WEatherSampleLambda.Test\WEatherSampleLambda.Test.csproj", "{8934201D-3EFC-4842-A29B-521C818649E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37366718-74A2-4C13-9859-5E4E48567262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37366718-74A2-4C13-9859-5E4E48567262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37366718-74A2-4C13-9859-5E4E48567262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37366718-74A2-4C13-9859-5E4E48567262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E31048AA-E9DE-4CF0-BC8F-0A0D1104771B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E31048AA-E9DE-4CF0-BC8F-0A0D1104771B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E31048AA-E9DE-4CF0-BC8F-0A0D1104771B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E31048AA-E9DE-4CF0-BC8F-0A0D1104771B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8934201D-3EFC-4842-A29B-521C818649E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8934201D-3EFC-4842-A29B-521C818649E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8934201D-3EFC-4842-A29B-521C818649E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8934201D-3EFC-4842-A29B-521C818649E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
