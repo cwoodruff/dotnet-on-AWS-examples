@@ -17,6 +17,7 @@ public class Function
         string report;
         string? zipCode = request?.Body;
         
+        
         // Validate the zip code (this is a basic validation, you should adjust as needed)
         if (string.IsNullOrWhiteSpace(zipCode) || zipCode.Length != 5)
         {

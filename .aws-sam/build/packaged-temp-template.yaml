@@ -5,7 +5,7 @@ Resources:
       Timeout: 300
       MemorySize: 128
       Handler: WeatherSampleLambda::WeatherSampleLambda.Function::FunctionHandler
-      CodeUri: s3://woodruff.dotnet/53e0083fb94229609528cb0db7202fbe
+      CodeUri: s3://woodruff.dotnet/26f77f41850a0daeb55004b590ccaf7a
       Runtime: dotnet6
       Architectures:
       - x86_64
